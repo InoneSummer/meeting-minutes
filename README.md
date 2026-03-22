@@ -8,13 +8,22 @@ McKinsey 스타일로: 핵심만, 간결하게, 책임자 명확하게.
 
 ## ⚡ 설치
 
-터미널에서 아래 명령어 한 줄로 설치할 수 있습니다:
+### 방법 1 — Claude Code 플러그인으로 설치 (권장)
+
+Claude Code에서 아래 명령어를 실행하세요:
+
+```
+/plugin marketplace add InoneSummer/meeting-minutes
+/plugin install meeting-minutes@meeting-minutes
+```
+
+### 방법 2 — npx로 설치
+
+터미널에서 아래 명령어를 실행하세요:
 
 ```bash
 npx github:InoneSummer/meeting-minutes
 ```
-
-설치가 완료되면 Claude Code에서 바로 사용할 수 있습니다.
 
 ---
 
@@ -45,9 +54,14 @@ npx github:InoneSummer/meeting-minutes
 ## 📁 파일 구성
 
 ```
+├── .claude-plugin/
+│   ├── plugin.json               # 플러그인 매니페스트
+│   └── marketplace.json          # 마켓플레이스 카탈로그
+├── skills/
+│   └── meeting-minutes/
+│       └── SKILL.md              # 스킬 정의 파일
 ├── bin/
 │   └── install.js                # npx 설치 스크립트
-├── SKILL.md                      # 스킬 정의 파일
 ├── meeting-minutes-eval.html     # 스킬 평가 페이지
 ├── package.json
 └── references/

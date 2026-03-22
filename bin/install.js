@@ -6,7 +6,7 @@ const os = require('os');
 
 const SKILL_NAME = 'meeting-minutes';
 const targetDir = path.join(os.homedir(), '.claude', 'skills', SKILL_NAME);
-const skillSrc = path.join(__dirname, '..', 'SKILL.md');
+const skillSrc = path.join(__dirname, '..', 'skills', 'meeting-minutes', 'SKILL.md');
 
 try {
   fs.mkdirSync(targetDir, { recursive: true });

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "meeting-minutes",
+  "description": "회의록 자동 정리 Claude Code 스킬",
+  "owner": {
+    "name": "InoneSummer"
+  },
+  "plugins": [
+    {
+      "name": "meeting-minutes",
+      "description": "회의록을 맥킨지 스타일로 자동 정리하는 Claude Code 스킬. 텍스트나 파일을 붙여넣으면 핵심 결정사항, 액션 아이템, 우선순위를 한눈에 정리해줍니다.",
+      "category": "productivity",
+      "source": ".",
+      "homepage": "https://github.com/InoneSummer/meeting-minutes"
+    }
+  ]
+}
