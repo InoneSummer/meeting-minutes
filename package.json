@@ -1,0 +1,15 @@
+{
+  "name": "meeting-minutes-skill",
+  "version": "1.0.0",
+  "description": "회의록을 맥킨지 스타일로 자동 정리하는 Claude Code 스킬",
+  "bin": {
+    "meeting-minutes-skill": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "SKILL.md"
+  ],
+  "keywords": ["claude", "claude-code", "skill", "meeting-minutes", "회의록"],
+  "author": "InoneSummer",
+  "license": "MIT"
+}
