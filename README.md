@@ -5,7 +5,9 @@
 McKinsey 스타일로: 핵심만, 간결하게, 책임자 명확하게.
 
 
-ASK Dori!Dori와 따라하는 IT의 "클로드코드 스킬 가장 쉽게 만들기(제작부터 배포까지 왕초보 가이드)" 속 스킬만들기 예제입니다. 
+
+
+**ASK Dori!Dori와 따라하는 IT의 "클로드코드 스킬 가장 쉽게 만들기(제작부터 배포까지 왕초보 가이드)" 속 스킬만들기 예제입니다.** 
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=XoIuwNiYAoo">
